@@ -1,4 +1,4 @@
-1. Запустить test task сервер на локальной машине:
+1. Execute uvicron server via local machine:
 $ cd %PATH%/project
 $ uvicorn app.main:app --reload
 
