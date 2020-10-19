@@ -1,5 +1,5 @@
 1. Execute uvicron server via local machine:
-$ cd %PATH%/project
+$ cd %PATH%/test_task
 $ uvicorn app.main:app --reload
 
 
@@ -7,12 +7,12 @@ $ uvicorn app.main:app --reload
 OPTIONAL:
 
 2. Pytest
-$ cd %path%/project
+$ cd %path%/test_task
 $ pytest
 
 
 3. Docker
-$ cd %PATH%/project
+$ cd %PATH%/test_task
 $ docker build -t test_task_image .
 $ docker run -h "127.0.0.1" -d --name test_task_container -p 8000:8000 test_task_image
 
